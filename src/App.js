@@ -11,7 +11,7 @@ const App = () => {
     WebViewer(
       {
         path: "/webviewer/lib",
-        initialDoc: "/files/blank.pdf",
+        initialDoc: "/files/PDFTron_about.pdf",
       },
       viewer.current
     ).then(async (instance) => {
